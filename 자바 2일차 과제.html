@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>설문조사 페이지</title>
+</head>
+<body>
+  <h1>좋아하는 음악 설문조사</h1>
+  <form id="survey-form">
+    <label for="name">이름:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="music">좋아하는 음악:</label>
+    <input type="text" id="music" name="music"><br><br>
+
+    <label for="artist">좋아하는 가수:</label>
+    <input type="text" id="artist" name="artist"><br><br>
+
+    <label for="song">제일 좋아하는 노래:</label>
+    <input type="text" id="song" name="song"><br><br>
+
+    <div id="extra-questions"></div>
+
+    <button type="button" onclick="addQuestion()">질문 추가</button>
+  </form>
+
+  <script src="style-and-script.js"></script>
+</body>
+</html>
